@@ -12406,11 +12406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\RazorPage.csproj",
+      "projectUniqueName": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\RazorPage.csproj",
       "projectName": "RazorPage",
-      "projectPath": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\RazorPage.csproj",
+      "projectPath": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\RazorPage.csproj",
       "packagesPath": "C:\\Users\\msi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\obj\\",
+      "outputPath": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\msi\\AppData\\Roaming\\NuGet\\NuGet.Config",

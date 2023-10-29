@@ -1,276 +1,1196 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RazorPage.bundle.scp.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RazorPage.bundle.scp.css",
       "PackagePath": "staticwebassets\\RazorPage.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\_variables.css",
+      "PackagePath": "staticwebassets\\css\\_variables.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\_variables.css.map",
+      "PackagePath": "staticwebassets\\css\\_variables.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\blog.css.map",
+      "PackagePath": "staticwebassets\\css\\blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\category.css",
+      "PackagePath": "staticwebassets\\css\\category.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\category.css.map",
+      "PackagePath": "staticwebassets\\css\\category.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\css\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\checkout.css.map",
+      "PackagePath": "staticwebassets\\css\\checkout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\cs-skin-elastic.css",
+      "PackagePath": "staticwebassets\\css\\cs-skin-elastic.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\jquery.pagepiling.css",
+      "PackagePath": "staticwebassets\\css\\jquery.pagepiling.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\css\\lib\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\chosen\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\css\\lib\\chosen\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\chosen\\chosen.css",
+      "PackagePath": "staticwebassets\\css\\lib\\chosen\\chosen.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\chosen\\chosen.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\chosen\\chosen.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\datatable\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\datatable\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\datatable\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\datatable\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\datatable\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\datatable\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lib\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\product-detail.css",
+      "PackagePath": "staticwebassets\\css\\product-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\product-detail.css.map",
+      "PackagePath": "staticwebassets\\css\\product-detail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\slick-slider.css",
+      "PackagePath": "staticwebassets\\css\\slick-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\static.css",
+      "PackagePath": "staticwebassets\\css\\static.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\style2.css",
+      "PackagePath": "staticwebassets\\css\\style2.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\styles.css.map",
+      "PackagePath": "staticwebassets\\css\\styles.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\fonts\\icomoon\\index.html",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\.gitignore",
+      "PackagePath": "staticwebassets\\img\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\admin.jpg",
+      "PackagePath": "staticwebassets\\img\\admin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\64-1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\64-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\64-2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\64-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\about-us1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\about-us1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\aboutus-backimg.png",
+      "PackagePath": "staticwebassets\\img\\banner\\aboutus-backimg.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\img\\banner\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-04-.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-04-.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\blog-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\category-banner.png",
+      "PackagePath": "staticwebassets\\img\\banner\\category-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-04.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-05.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-06.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-07.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\cms-aboutus.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\cms-aboutus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\color-wheel.svg",
+      "PackagePath": "staticwebassets\\img\\banner\\color-wheel.svg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\en.png",
+      "PackagePath": "staticwebassets\\img\\banner\\en.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\ext-img.png",
+      "PackagePath": "staticwebassets\\img\\banner\\ext-img.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\fr.png",
+      "PackagePath": "staticwebassets\\img\\banner\\fr.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\inner-parallax.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\inner-parallax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\left-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\left-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\left-img.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\left-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\menu-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\menu-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\offer-parallex.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\offer-parallex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\parallax-service.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\parallax-service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\parallax.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\parallax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\parellex-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\parellex-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\pattern-.png",
+      "PackagePath": "staticwebassets\\img\\banner\\pattern-.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\pattern.png",
+      "PackagePath": "staticwebassets\\img\\banner\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\service-01.png",
+      "PackagePath": "staticwebassets\\img\\banner\\service-01.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\service-02.png",
+      "PackagePath": "staticwebassets\\img\\banner\\service-02.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\service-03.png",
+      "PackagePath": "staticwebassets\\img\\banner\\service-03.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\team-01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\team-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\team-02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\team-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\team-03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\team-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\team-04.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\team-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\user1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\user1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\user2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\user2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\user3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\user3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\357505264_6531657235.jpg",
+      "PackagePath": "staticwebassets\\img\\cate\\357505264_6531657235.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\4k-anime-498-x-241-gif-kpnnk8elfpjxlmze.gif",
+      "PackagePath": "staticwebassets\\img\\cate\\4k-anime-498-x-241-gif-kpnnk8elfpjxlmze.gif"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\banphim2.jpg",
+      "PackagePath": "staticwebassets\\img\\cate\\banphim2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\cateSofa23.jpg",
+      "PackagePath": "staticwebassets\\img\\cate\\cateSofa23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\cateSofaGiuong.jpg",
+      "PackagePath": "staticwebassets\\img\\cate\\cateSofaGiuong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\cateSofaGoc.jpg",
+      "PackagePath": "staticwebassets\\img\\cate\\cateSofaGoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\img5.png",
+      "PackagePath": "staticwebassets\\img\\cate\\img5.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\cate\\sanji.webp",
+      "PackagePath": "staticwebassets\\img\\cate\\sanji.webp"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\01.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\02.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\03.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\04.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\categoryfeature-01.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\categoryfeature-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\categoryfeature-02.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\categoryfeature-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\category\\categoryfeature-03.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\categoryfeature-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\lightbox\\close.png",
+      "PackagePath": "staticwebassets\\img\\lightbox\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\lightbox\\index.php",
+      "PackagePath": "staticwebassets\\img\\lightbox\\index.php"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\lightbox\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\lightbox\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\lightbox\\next.png",
+      "PackagePath": "staticwebassets\\img\\lightbox\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\lightbox\\prev.png",
+      "PackagePath": "staticwebassets\\img\\lightbox\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logo.psd",
+      "PackagePath": "staticwebassets\\img\\logo.psd"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\author.jpg",
+      "PackagePath": "staticwebassets\\img\\logos\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-01.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-02.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-02.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-03.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-03.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-04.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-04.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-05.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-05.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-06.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-06.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\brand-logo-07.png",
+      "PackagePath": "staticwebassets\\img\\logos\\brand-logo-07.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\footer-logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\icon1_small.png",
+      "PackagePath": "staticwebassets\\img\\logos\\icon1_small.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\icon2_small.png",
+      "PackagePath": "staticwebassets\\img\\logos\\icon2_small.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\icon3_small.png",
+      "PackagePath": "staticwebassets\\img\\logos\\icon3_small.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\logo-.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo-.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\logo-01.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\logo-02.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo-02.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\logos\\paypal.png",
+      "PackagePath": "staticwebassets\\img\\logos\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\01.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\02.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\03.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\04.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\05.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\06.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\07.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\08.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\09.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-01.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-02.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-03.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-04.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-05.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-06.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\sample-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\sofa1.jpg",
+      "PackagePath": "staticwebassets\\img\\sofa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\ResizeSensor.min.js",
+      "PackagePath": "staticwebassets\\js\\ResizeSensor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\cookiealert.js",
+      "PackagePath": "staticwebassets\\js\\cookiealert.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\chartjs-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\datatables-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\datatables-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\flot-chart-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\flot-chart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\gmap-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\gmap-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\peitychart-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\peitychart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\vector-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\vector-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\init\\weather-init.js",
+      "PackagePath": "staticwebassets\\js\\init\\weather-init.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\inview.js",
+      "PackagePath": "staticwebassets\\js\\inview.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.lazy.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.lazy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.pagepiling.js",
+      "PackagePath": "staticwebassets\\js\\jquery.pagepiling.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.sticky-kit.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky-kit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\chosen\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chosen\\chosen.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\chosen\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chosen\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\chosen\\chosen.proto.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chosen\\chosen.proto.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\chosen\\chosen.proto.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chosen\\chosen.proto.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\jquery-1.12.4.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\jquery-1.12.4.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\data-table\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\js\\lib\\data-table\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\gmap\\gmapApi.js",
+      "PackagePath": "staticwebassets\\js\\lib\\gmap\\gmapApi.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\gmap\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\lib\\gmap\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\gmap\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\gmap\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lightbox-2.6.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-2.6.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\parallax.js",
+      "PackagePath": "staticwebassets\\js\\parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\theia-sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\js\\theia-sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\tooltip.min.js",
+      "PackagePath": "staticwebassets\\js\\tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\js\\vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.css",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.js",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.css",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.css",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.css.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.css.map",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.js",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.js",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.js.map",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.min.js.map",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js.map"
     },
     {
-      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\RazorPage\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.png",
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\lib\\multiple-select\\multiple-select.png",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RazorPage.Microsoft.AspNetCore.StaticWebAssets.props",

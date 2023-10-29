@@ -1,0 +1,100 @@
+﻿@page "/Admin/Product/Index"
+@model RazorPage.Areas.Admin.Pages.Product.IndexModel
+@{
+}
+<partial name="_Notification" model=@Model.StatusMessage />
+<div class="animated fadeIn">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header row">
+                    <strong class="card-title" style="margin-right:20px">Data Table</strong>
+                    <a asp-area="Admin" asp-page="./Create" class="btn-success"><i class="fa fa-plus"></i>Thêm mới</a>
+                </div>
+                <div class="card-body">
+                    
+                    <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                        
+                        <thead>
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Loại</th>
+                                <th>Giá nhập</th>
+                                <th>Giá bán</th>
+                                <th>Chiều dài</th>
+                                <th>Chiều cao</th>
+                                <th>Chiều sâu</th>
+                                <th>Ảnh</th>
+                             
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var product in Model.products)
+                            {
+                                <tr>
+                                    <td>@product.ProductName</td>
+                                    <td>@product.Category.CategoryName</td>
+                                    <td>@product.PriceIn</td>
+                                    <td>@product.PriceOut</td>
+                                    <td>@product.Length</td>
+                                    <td>@product.Height</td>
+                                    <td>@product.Depth</td>
+                                    <td><img alt="avatar" style="max-height:100px;max-height:100px" src="@product.ImageDefault"></td>
+                                    <td>
+                                        <a href="#" id="btndelete" data-id="@product.ProductId"><i class="fa fa-trash-o"></i></a> |
+                                        <a asp-area="Admin" asp-page="./Edit" asp-route-cateId="@product.ProductId"><i class="fa fa-edit"></i></a>
+                                    </td>
+                                </tr>
+                            }
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+@section Scripts {
+    @Html.AntiForgeryToken()
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('body').on('click', '#btndelete', function () {
+                var id = $(this).data('id');
+                console.log(id);
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!',
+
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            type: "POST",
+                            url: "/Admin/Category/Index?handler=DeleteCategory",
+                            data: { "cateId": id },
+                            contentType: 'application/x-www-form-urlencoded',
+                            dataType: "html",
+                            headers:
+                            {
+                                "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
+                            },
+                            success: function (response) {
+                                location.reload();
+                            },
+                        });
+                    }
+                })
+            });
+        });
+
+    </script>
+}
