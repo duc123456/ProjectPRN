@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Org.BouncyCastle.Utilities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -49,6 +50,12 @@ namespace RazorPage.Models
         public string? MadeIn { get; set; }
         public string? InstructionsForUse { get; set; }
         public string? ImageDefault { get; set; }
+        [DisplayName("Số lượng sản phẩm")]
+        [Required(ErrorMessage = "Hãy nhập số lượng của sản phẩm")]
+        [Range(1,99999,ErrorMessage ="Số lượng không hợp lệ")]
+        public int Quantity { get; set; }
+
+        public bool? IsDeleted { get; set; }
 
         public int? CategoryId { get; set; }
         [ForeignKey("CategoryId")]

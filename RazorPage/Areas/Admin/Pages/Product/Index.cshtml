@@ -44,7 +44,7 @@
                                     <td><img alt="avatar" style="max-height:100px;max-height:100px" src="@product.ImageDefault"></td>
                                     <td>
                                         <a href="#" id="btndelete" data-id="@product.ProductId"><i class="fa fa-trash-o"></i></a> |
-                                        <a asp-area="Admin" asp-page="./Edit" asp-route-cateId="@product.ProductId"><i class="fa fa-edit"></i></a>
+                                        <a asp-area="Admin" asp-page="./Edit" asp-route-proId="@product.ProductId"><i class="fa fa-edit"></i></a>
                                     </td>
                                 </tr>
                             }
@@ -79,8 +79,8 @@
                     if (result.isConfirmed) {
                         $.ajax({
                             type: "POST",
-                            url: "/Admin/Category/Index?handler=DeleteCategory",
-                            data: { "cateId": id },
+                            url: "/Admin/Product/Index?handler=DeleteProduct",
+                            data: { "productId": id },
                             contentType: 'application/x-www-form-urlencoded',
                             dataType: "html",
                             headers:

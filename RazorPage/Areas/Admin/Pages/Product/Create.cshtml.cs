@@ -23,10 +23,7 @@ namespace RazorPage.Areas.Admin.Pages.Product
         [TempData]
         public string StatusMessage { get; set; }
 
-        [DisplayName("Danh mục")]
-        [Required(ErrorMessage = "Chọn danh mục của sản phẩm")]
-        [BindProperty]
-        public int CategoryIdSelected { get; set; }
+
 
         [BindProperty]
         [DataType(DataType.Upload)]
@@ -46,8 +43,15 @@ namespace RazorPage.Areas.Admin.Pages.Product
         }
         public async Task<IActionResult> OnPostAsync()
         {
+
             if (!ModelState.IsValid)
             {
+                Categories = _context.Categories.Select(
+                n => new SelectListItem
+                {
+                    Value = n.CategoryId.ToString(),
+                    Text = n.CategoryName.ToString(),
+                }).ToList();
                 return Page();
             }
             else
@@ -58,11 +62,11 @@ namespace RazorPage.Areas.Admin.Pages.Product
                     using var filestream = new FileStream(filePath, FileMode.Create);
                     fileImage.CopyTo(filestream);
                     product.ImageDefault = "/img/products/" + fileImage.FileName;
-                    //category.UpdateDate = DateTime.Now;
-                    //category.CreateDate = DateTime.Now;
-                    //_context.Categories.Add(category);
-                    //_context.SaveChanges();
-                    //StatusMessage = "Bạn vừa tạo thành công danh mục " + category.CategoryName;
+                    product.UpdateDate = DateTime.Now;
+                    product.CreateDate = DateTime.Now;
+                    _context.Products.Add(product);
+                    _context.SaveChanges();
+                    StatusMessage = "Bạn vừa tạo thành công sản phẩm" + product.ProductName;
                 }
             }
             return RedirectToPage("./Index");

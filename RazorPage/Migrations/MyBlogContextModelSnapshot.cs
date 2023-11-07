@@ -167,6 +167,9 @@ namespace RazorPage.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("Avatar")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
@@ -294,21 +297,25 @@ namespace RazorPage.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Color")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Decription")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Depth")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("Discount")
                         .HasColumnType("int");
 
                     b.Property<int?>("Height")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("ImageDefault")
@@ -320,7 +327,11 @@ namespace RazorPage.Migrations
                     b.Property<int?>("Insurance")
                         .HasColumnType("int");
 
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("Length")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("MadeIn")
@@ -330,13 +341,19 @@ namespace RazorPage.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("PriceIn")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("PriceOut")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("ProductName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");

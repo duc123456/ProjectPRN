@@ -30,6 +30,8 @@ namespace RazorPage.Areas.Admin.Pages.Category
             [StringLength(256, MinimumLength = 6, ErrorMessage = "{0} phải dài từ {2} tới {1} kí tự")]
             public string CategoryDescript { get; set; }
 
+          
+
             [BindProperty]
             [DataType(DataType.Upload)]
             [DisplayName("Ảnh danh mục")]

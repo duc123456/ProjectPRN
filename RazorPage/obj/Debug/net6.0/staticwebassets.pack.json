@@ -193,6 +193,10 @@
       "PackagePath": "staticwebassets\\img\\admin.jpg"
     },
     {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\0d32350f-9bf9-4c0f-9d3e-8f2496361a99tivi.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\0d32350f-9bf9-4c0f-9d3e-8f2496361a99tivi.jpg"
+    },
+    {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\1.jpg",
       "PackagePath": "staticwebassets\\img\\avatar\\1.jpg"
     },
@@ -223,6 +227,30 @@
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\64-2.jpg",
       "PackagePath": "staticwebassets\\img\\avatar\\64-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\bpxanh.jpg5b36c9f6-7798-4fc2-8222-e47983bc7c3a",
+      "PackagePath": "staticwebassets\\img\\avatar\\bpxanh.jpg5b36c9f6-7798-4fc2-8222-e47983bc7c3a"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\bpxanh.jpgbee21672-cd33-49d6-94aa-cfc1e3cd1757",
+      "PackagePath": "staticwebassets\\img\\avatar\\bpxanh.jpgbee21672-cd33-49d6-94aa-cfc1e3cd1757"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\c661b976-09d0-4648-8805-22da3f0af40ebpxanhla.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar\\c661b976-09d0-4648-8805-22da3f0af40ebpxanhla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\tivi.jpg333626d6-3089-4c4c-b263-3bef59a2eafc",
+      "PackagePath": "staticwebassets\\img\\avatar\\tivi.jpg333626d6-3089-4c4c-b263-3bef59a2eafc"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\tivi.jpg3ac08394-0da8-4624-adc0-b3909c2edf2d",
+      "PackagePath": "staticwebassets\\img\\avatar\\tivi.jpg3ac08394-0da8-4624-adc0-b3909c2edf2d"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\avatar\\tivi.jpged080def-4912-48d7-b946-a6fff250a8a8",
+      "PackagePath": "staticwebassets\\img\\avatar\\tivi.jpged080def-4912-48d7-b946-a6fff250a8a8"
     },
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\banner\\03.jpg",
@@ -615,6 +643,14 @@
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\10.jpg",
       "PackagePath": "staticwebassets\\img\\products\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\banphim3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\banphim3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\products\\banphim4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\banphim4.jpg"
     },
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\slider\\sample-01.jpg",

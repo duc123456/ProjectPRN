@@ -1,18 +1,12 @@
 ﻿@{
-    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
-    {
-        Layout = parentLayout.ToString();
-    }
-    else
-    {
-        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
-    }
+   
+        Layout = "/Areas/Admin/Pages/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Manage your account</h1>
+
 
 <div>
-    <h2>Change your account settings</h2>
+    <h2>Quản lí trang cá nhân của bạn</h2>
     <hr />
     <div class="row">
         <div class="col-md-3">
