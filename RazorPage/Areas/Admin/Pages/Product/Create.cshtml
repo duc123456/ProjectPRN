@@ -4,117 +4,174 @@
 }
 <div class="animated fadeIn">
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
                     <a asp-area="Admin" asp-page="./Index" class="btn-success"><i class="fa fa-angle-left"></i>  Trở lại danh mục</a>
                 </div>
                 <div class="card-body">
                     <!-- Credit Card -->
-                    <div id="pay-invoice">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h3 class="text-center">Thêm danh sản phẩm</h3>
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Sản phẩm</h4>
                             </div>
-                            <hr>
-                            <form  method="post" asp-page="Product/Create" asp-area="Admin" novalidate="novalidate"  enctype="multipart/form-data">
-                                <div class="form-group">
-                                    <label asp-for="product.ProductName" class="control-label mb-1"></label>
-                                    <input id="cc-payment" asp-for="product.ProductName" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                    <span asp-validation-for="product.ProductName"></span>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.PriceIn" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.PriceIn" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.PriceIn"></span>
+                            <div class="card-body">
+                                <div class="default-tab">
+                                    <nav>
+                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Thông tin</a>
+                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Ảnh</a>
+                                        </div>
+                                    </nav>
+                                    <form method="post" asp-page="Product/Create" asp-area="Admin" novalidate="novalidate" enctype="multipart/form-data">
+                                    <div class="tab-content pl-3 pt-2" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                            <div id="pay-invoice">
+                                                <div class="card-body">
+                                                    <div class="card-title">
+                                                        <h3 class="text-center">Thêm danh sản phẩm</h3>
+                                                    </div>
+                                                    <hr>
+                                                        <div class="tab-content" id="myTabContent">
+                                                            <div class="form-group">
+                                                                <label asp-for="product.ProductName" class="control-label mb-1"></label>
+                                                                <input id="cc-payment" asp-for="product.ProductName" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                <span asp-validation-for="product.ProductName"></span>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.PriceIn" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.PriceIn" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.PriceIn"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.PriceOut" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.PriceOut" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.PriceOut"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="product.CategoryId" class="control-label mb-1"></label>
+                                                                <select id="categoryId" asp-items="Model.Categories" asp-for="product.CategoryId">
+                                                                </select>
+                                                                <span asp-validation-for="product.CategoryId"></span>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.Color" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Color" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Color"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.Insurance" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Insurance" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Insurance"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+
+                                                                <div class="form-group col-md-12">
+                                                                    <label asp-for="product.Quantity" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Quantity" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Quantity"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.Discount" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Discount" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Discount"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label asp-for="product.Material" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Material" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Material"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="product.Length" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Length" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Length"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="product.Height" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Height" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Height"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="product.Depth" class="control-label mb-1"></label>
+                                                                    <input id="cc-payment" asp-for="product.Depth" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                    <span asp-validation-for="product.Depth"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="product.MadeIn" class="control-label mb-1"></label>
+                                                                <input id="cc-payment" asp-for="product.MadeIn" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                                                                <span asp-validation-for="product.MadeIn"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="product.Decription" class="control-label mb-1"></label>
+                                                                <textarea id="summernote" asp-for="product.Decription" class="form-control" aria-required="true" aria-invalid="false" value=""></textarea>
+                                                                <span asp-validation-for="product.Decription"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="product.InstructionsForUse" class="control-label mb-1"></label>
+                                                                <textarea id="summernote1" asp-for="product.InstructionsForUse" class="form-control" aria-required="true" aria-invalid="false" value=""></textarea>
+                                                                <span asp-validation-for="product.InstructionsForUse"></span>
+                                                            </div>
+                                                            <div>
+                                                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                                                    <i class="fa fa-plus fa-lg"></i>&nbsp;
+                                                                    <span id="payment-button-amount">Tạo danh mục</span>
+                                                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                                                </button>
+                                                            </div>
+
+
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                <div class="row mb-4">
+                                                    <div class="col-6">
+                                                        <h3>Các ảnh của sản phẩm</h3>
+                                                    </div>
+                                                    <div class="col-6 d-flex justify-content-end">
+                                                        <input type="button" id="TaiAnh" class="btn btn-sm btn-success" onclick="Browsever()" value="Tải ảnh" />
+                                                    </div>
+                                                </div>
+                                                <table class="table table-bordered table-striped mb-5">
+
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Ảnh</th>
+                                                            <th>Ảnh đại diện</th>
+                                                            <th>Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody id="tbHTML">
+                                                        <input type="hidden" id="CurrentId" value="0" />
+                                                    </tbody>
+                                                </table>
+
+                                                <button type="submit" class="btn btn-sm btn-success">Create</button>
+                                                <a class="btn btn-sm btn-secondary" asp-page="./Index">Back to list</a>
+                                        </div>
+                                       
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.PriceOut" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.PriceOut" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.PriceOut"></span>
-                                    </div>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <label asp-for="product.CategoryId" class="control-label mb-1"></label>
-                                    <select id="categoryId" asp-items="Model.Categories" asp-for="product.CategoryId">
-                                        
-                                    </select>
-                                    <span asp-validation-for="product.CategoryId"></span>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.Color" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Color" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Color"></span>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.Insurance" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Insurance" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Insurance"></span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.Discount" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Discount" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Discount"></span>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label asp-for="product.Material" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Material" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Material"></span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-4">
-                                        <label asp-for="product.Length" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Length" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Length"></span>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label asp-for="product.Height" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Height" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Height"></span>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label asp-for="product.Depth" class="control-label mb-1"></label>
-                                        <input id="cc-payment" asp-for="product.Depth" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                        <span asp-validation-for="product.Depth"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="product.MadeIn" class="control-label mb-1"></label>
-                                    <input id="cc-payment" asp-for="product.MadeIn" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                                    <span asp-validation-for="product.MadeIn"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="product.Decription" class="control-label mb-1"></label>
-                                    <textarea id="cc-payment" asp-for="product.Decription" type="text" class="form-control" aria-required="true" aria-invalid="false" value=""></textarea>
-                                    <span asp-validation-for="product.Decription"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="product.InstructionsForUse" class="control-label mb-1"></label>
-                                    <textarea id="cc-payment" asp-for="product.InstructionsForUse" type="text" class="form-control" aria-required="true" aria-invalid="false" value=""></textarea>
-                                    <span asp-validation-for="product.InstructionsForUse"></span>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col col-md-3"><label asp-for="fileImage" class=" form-control-label"></label></div>
-                                    <div class="col-12 col-md-9"><input type="file" id="file-input" asp-for="fileImage" class="form-control-file"></div>
-                                    <div class="col-12 col-md-9"><span asp-validation-for="fileImage"></span></div>
-                                </div>
-                                <div>
-                                    <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
-                                        <i class="fa fa-plus fa-lg"></i>&nbsp;
-                                        <span id="payment-button-amount">Tạo danh mục</span>
-                                        <span id="payment-button-sending" style="display:none;">Sending…</span>
-                                    </button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
 
                 </div>
+
             </div> <!-- .card -->
 
         </div>
@@ -123,28 +180,85 @@
 
 </div>
 @section Scripts {
+
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        <!-- Place the first <script> tag in your HTML's <head> -->
-        <script src="https://cdn.tiny.cloud/1/9birnc9bqizltfv0h55452feqcfado1lqcj17z0je7cwf9p0/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-
-        <!-- Place the following <script> and <textarea> tags your HTML's <body> -->
-        <script>
-            tinymce.init({
-                selector: 'textarea',
-                plugins: 'ai tinycomments mentions anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed permanentpen footnotes advtemplate advtable advcode editimage tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss',
-                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-                tinycomments_mode: 'embedded',
-                tinycomments_author: 'Author name',
-                mergetags_list: [
-                    { value: 'First.Name', title: 'First Name' },
-                    { value: 'Email', title: 'Email' },
-                ],
-                ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
-            });
-        </script>
-        <textarea>
-          Welcome to TinyMCE!
-        </textarea>
     }
+    <script src="~/js/summernote_ckfinder.js"></script>
+    <script>
+        function Browsever(field) {
+            var finder = $('<div />').dialogelfinder({
+                url: '/Admin/el-finder-file-system/connector',
+                baseUrl: "/lib/elfinder/",
+                lang: 'vi',
+                width: 840,
+                height: 450,
+                destroyOnClose: true,
+                commandsOptions: {
+                    getfile: {
+                        oncomplete: 'close',
+                        folders: false
+                    }
+                },
+                getFileCallback: function (file) {
+                    var fileUrl = file.url;
+                    addImageProduct(fileUrl);
+                }
+            }).dialogelfinder('instance');
+        }
+        //xóa
+        // lấy ra id của hàng cần xóa
+        $('body').on('click', '.btnXoaAnh', function () {
+            var conf = confirm('Bạn có muốn xóa bản ghi này không ?');
+            if (conf === true) {
+                var _id = $(this).data('id');
+                $('#trow_' + _id).fadeTo('fast', 1, function () {
+                    $(this).slideUp('fast', function () { $(this).remove(); })
+                });
+                //sau khi xóa cập nhật lại thứ tự
+                var temp = $('#CurrentId').val();
+                var currentId = parseInt(temp) - 1;
+                $('#tCurrentId').val(currentId);
+            }
+
+        });
+        function addImageProduct(url) {
+            var temp = $('#CurrentId').val();
+            var currentId = parseInt(temp) + 1;
+            console.log(currentId)
+            var str = "";
+            if (currentId == 1) {
+                //cộng chuỗi
+                str = `<tr id="trow_${currentId}">
+                                                 <td class="text-center">${currentId}</td>
+                                                 <td class="text-center"><img src="${url}"  width="100px" height="100px"/><input type="hidden" name="Images" value="${url}"/></td>
+                                                 <td class="text-center">
+                                                          <label class="custom-control custom-radio custom-control-inline" >
+                                                                    <input type="radio" name="radioDefault" value=${currentId} checked="checked" class="custom-control-input"/>
+                                                                    <span class="custom-control-label"></span>
+                                                           </label>
+                                                 </td>
+                                                 <td class="text-center"><a href="#" data-id="${currentId}" class="btn btn-sm btn-danger btnXoaAnh">Xóa</a></td>
+                                             </tr>`;
+            }
+            else {
+                str = `<tr id="trow_${currentId}">
+                                                 <td class="text-center">${currentId}</td>
+                                                 <td class="text-center"><img src="${url}"  width="100px" height="100px"/><input type="hidden" name="Images" value="${url}"/></td>
+
+                                                     <td class="text-center">
+                                                         <label class="custom-control custom-radio custom-control-inline" >
+                                                             <input type="radio" name="radioDefault" value=${currentId} class="custom-control-input"/>
+                                                             <span class="custom-control-label"></span>
+                                                            </label>
+                                                    </td>
+                                                 <td class="text-center"><a href="#" data-id="${currentId}" class="btn btn-sm btn-danger btnXoaAnh">Xóa</a></td>
+                                             </tr>`;
+            }
+            //gen ra bảng
+            $('#tbHTML').append(str);
+            $('#tCurrentId').val(currentId);
+        }
+    </script>
 }
+

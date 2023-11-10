@@ -22,14 +22,7 @@ namespace RazorPage.Areas.Admin.Pages.Product
 
         [TempData]
         public string StatusMessage { get; set; }
-
-
-
-        [BindProperty]
-        [DataType(DataType.Upload)]
-        [Required(ErrorMessage = "Chọn ảnh để upload")]
-        [DisplayName("Ảnh sản phẩm")]
-        public IFormFile fileImage { get; set; }
+ 
 
         public List<SelectListItem> Categories { get; set; }
         public void OnGet()
@@ -41,7 +34,7 @@ namespace RazorPage.Areas.Admin.Pages.Product
                 Text = n.CategoryName.ToString(),
             }).ToList();
         }
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(List<string> Images, int radioDefault)
         {
 
             if (!ModelState.IsValid)
@@ -56,18 +49,41 @@ namespace RazorPage.Areas.Admin.Pages.Product
             }
             else
             {
-                if (fileImage != null)
+                if (Images != null && Images.Count > 0)
                 {
-                    var filePath = Path.Combine(_environment.WebRootPath, "img\\products", fileImage.FileName);
-                    using var filestream = new FileStream(filePath, FileMode.Create);
-                    fileImage.CopyTo(filestream);
-                    product.ImageDefault = "/img/products/" + fileImage.FileName;
+                    for (int i = 0; i < Images.Count; i++)
+                    {
+                        if (i + 1 == radioDefault)
+                        {
+                            product.ImageDefault = Images[i];
+                            product.ProductImages.Add(new ProductImage
+                            {
+                                ProductId = product.ProductId,
+                                Image = Images[i],
+                                IsDefault = true,
+                                CreatedDate = DateTime.Now,
+                            });
+                        }
+                        else
+                        {
+                            product.ProductImages.Add(new ProductImage
+                            {
+                                ProductId = product.ProductId,
+                                Image = Images[i],
+                                IsDefault = false,
+                                CreatedDate = DateTime.Now,
+
+                            });
+                        }
+
+                    }
+                }
                     product.UpdateDate = DateTime.Now;
                     product.CreateDate = DateTime.Now;
                     _context.Products.Add(product);
                     _context.SaveChanges();
                     StatusMessage = "Bạn vừa tạo thành công sản phẩm" + product.ProductName;
-                }
+                
             }
             return RedirectToPage("./Index");
 

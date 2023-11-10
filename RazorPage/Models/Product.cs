@@ -9,6 +9,9 @@ namespace RazorPage.Models
 {
     public partial class Product
     {
+        public Product() {
+            ProductImages = new HashSet<ProductImage>();
+        }
         [Key]
         public int ProductId { get; set; }
 
@@ -60,5 +63,7 @@ namespace RazorPage.Models
         public int? CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public virtual Category? Category { get; set; }
+
+        public virtual ICollection<ProductImage> ProductImages { get; set; }
     }
 }

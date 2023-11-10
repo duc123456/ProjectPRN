@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Admin/Pages/ProductImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEltYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Admin/Pages/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +70,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Admin/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Files/Views/FileManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmlsZXNcVmlld3NcRmlsZU1hbmFnZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Files/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmlsZXNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Files/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmlsZXNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Identity/Pages/Account/AccessDenied.cshtml]
@@ -300,6 +316,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Pages/Shared/_LayoutEmpty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -323,6 +343,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Admin/Pages/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-hl27k3p04e
+
+[C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Files/Views/Shared/_LayoutFileManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmlsZXNcVmlld3NcU2hhcmVkXF9MYXlvdXRGaWxlTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-c7oumgd3q0
 
 [C:/Users/msi/Desktop/PRN221/ProjectPRN/RazorPage/Areas/Identity/Pages/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=

@@ -2,6 +2,7 @@ using App.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using RazorPage.Models;
 using RazorPage.Services;
 
@@ -98,6 +99,15 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 
+// /contents/a1.jpg => Uploads/a1.jpg
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Uploads")
+        ),
+    RequestPath = "/contents"
+});
+
 app.UseRouting();
 
 app.UseAuthentication();
@@ -106,5 +116,6 @@ app.UseAuthorization();
 
 
 app.MapRazorPages();
-
+// để sử dụng API và lấy đến đúng route cần khai báo
+app.MapControllers();
 app.Run();

@@ -41,7 +41,7 @@
                                     <td>@product.Length</td>
                                     <td>@product.Height</td>
                                     <td>@product.Depth</td>
-                                    <td><img alt="avatar" style="max-height:100px;max-height:100px" src="@product.ImageDefault"></td>
+                                    <td><img alt="avatar" id="imgproduct" data-id="@product.ProductId" style="max-height:100px;max-height:100px" src="@product.ImageDefault"></td>
                                     <td>
                                         <a href="#" id="btndelete" data-id="@product.ProductId"><i class="fa fa-trash-o"></i></a> |
                                         <a asp-area="Admin" asp-page="./Edit" asp-route-proId="@product.ProductId"><i class="fa fa-edit"></i></a>
@@ -51,6 +51,9 @@
                             
                         </tbody>
                     </table>
+                </div>
+                <div id="dialog">
+                    <iframe id="myIframe" style="border:0 ;width: 100%; height: 100%"></iframe>
                 </div>
             </div>
         </div>
@@ -62,6 +65,15 @@
     @Html.AntiForgeryToken()
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
+        $(document).ready(function () {
+       
+        $('body').on("click", "#imgproduct", function () {
+            var proid = $(this).attr("data-id");
+            console.log(proid)
+            $("#dialog #myIframe").attr("src", "/Admin/ProductImages/Index?id=" + proid);
+            $('#dialog').dialog('open');
+            return false;
+        });
         $(document).ready(function () {
             $('body').on('click', '#btndelete', function () {
                 var id = $(this).data('id');

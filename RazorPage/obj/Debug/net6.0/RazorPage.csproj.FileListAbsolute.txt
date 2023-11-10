@@ -598,3 +598,5 @@ C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\RazorPage.cspr
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\RazorPage.genruntimeconfig.cache
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\ref\RazorPage.dll
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\scopedcss\Areas\Admin\Pages\Shared\_LayoutAdmin.cshtml.rz.scp.css
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\scopedcss\Areas\Files\Views\Shared\_LayoutFileManager.cshtml.rz.scp.css
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\elFinder.NetCore.dll
