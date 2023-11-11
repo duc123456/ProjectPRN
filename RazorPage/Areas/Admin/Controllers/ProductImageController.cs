@@ -4,7 +4,7 @@ using System;
 
 namespace RazorPage.Areas.Admin.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Admin/api/[controller]")]
     [ApiController]
     public class ProductImageController : Controller
     {

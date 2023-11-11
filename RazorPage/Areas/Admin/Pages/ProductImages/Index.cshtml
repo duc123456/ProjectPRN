@@ -68,8 +68,11 @@
 @section Scripts{
     @Html.AntiForgeryToken()
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="~/lib/elfinder/js/elfinder.min.js"></script>
+    <script src="~/lib/summernote/summernote-bs4.min.js"></script>
     <script src="~/js/summernote_ckfinder.js"></script>
-    <script>
+    <script type="text/javascript">
         $(".btnDelete").click(function () {
             //xóa
             // lấy ra id của hàng cần xóa
@@ -80,9 +83,9 @@
                 $.ajax({
                     type: 'POST',
                     dataType: "json",
-                    beforeSend: function (xhr) {
-                        xhr.setRequestHeader("XSRF-TOKEN",
-                            $('input:hidden[name="__RequestVerificationToken"]').val());
+                    headers:
+                    {
+                        "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
                     },
                     url: '/Admin/ProductImages/Index?handler=DeleteImage',
                     data: { id: id },
@@ -98,36 +101,36 @@
                 });
             }
         });
-
-        $(".btnDefault").click(function () {
-            var id = $(this).data('id');
-            var conf = confirm('Bạn có muốn cho ảnh này làm ảnh mặc định không ?');
-            console.log(id);
-            if (conf === true) {
-                // call ajax
-                $.ajax({
-                    type: 'POST',
-                    dataType: "json",
-                    beforeSend: function (xhr) {
-                        xhr.setRequestHeader("XSRF-TOKEN",
-                            $('input:hidden[name="__RequestVerificationToken"]').val());
-                    },
-                    url: '/Admin/ProductImages/Index?handler=ChangeImageDefault',
-                    data: { id: id, pid: @Model.ProductId },
-                    success: function (rs) {
-                        console.log(rs);
-                        if (rs.success) {
-                            console.log(rs.message);
-                            window.location.reload();
-                        } else {
-                            console.log("Fail");
+        $(document).ready(function () { 
+            $(".btnDefault").click(function () {
+                var id = $(this).data('id');
+                var conf = confirm('Bạn có muốn cho ảnh này làm ảnh mặc định không ?');
+                if (conf === true) {
+                    // call ajax
+                    $.ajax({
+                        type: 'POST',
+                        dataType: "json",
+                        headers:
+                        {
+                            "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
+                        },
+                        url: '/Admin/ProductImages/Index?handler=ChangeImageDefault',
+                        data: { "id": id, "pid": @Model.ProductId },
+                        success: function (rs) {
+                            console.log(rs);
+                            if (rs.success) {
+                                console.log(rs.message);
+                                window.location.reload();
+                            } else {
+                                console.log("Fail");
+                            }
                         }
-                    }
-                });
-            }
+                    });
+                }
+            });
+        
+        
         });
-
-
         function Browsever(field) {
             var finder = $('<div />').dialogelfinder({
                 url: '/Admin/el-finder-file-system/connector',
@@ -153,13 +156,12 @@
             $.ajax({
                 type: 'POST',
                 dataType: "json",
-                beforeSend: function (xhr) {
-                    xhr.setRequestHeader("XSRF-TOKEN",
-                        $('input:hidden[name="__RequestVerificationToken"]').val());
+                headers:
+                {
+                    "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
                 },
                 url: '/Admin/ProductImages/Index?handler=AddImage',
-                data: { id: id, url: url },
-
+                data: { "id": id, "url": url },
                 success: function (rs) {
                     console.log(rs);
                     if (rs.success) {
@@ -172,10 +174,6 @@
 
             });
         }
-
-
-
-
     </script>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

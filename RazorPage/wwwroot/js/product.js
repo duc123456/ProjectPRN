@@ -1,8 +1,30 @@
-﻿
+﻿var dataTable;
 
 
 
 
+$(document).ready(function () {
+    $("#dialog").dialog({
+        autoOpen: false,
+        show: "fade",
+        hide: "fade",
+        modal: "true",
+        height: '500',
+        width: '1000',
+        resizable: true,
+        title: 'Quản lí ảnh sản phẩm',
+        close: function () {
+            window.location.reload();
+        }
+    });
+
+    $('body').on("click", "#imgproduct", function () {
+        var proid = $(this).attr("data-id");
+        $("#dialog #myIframe").attr("src", "/Admin/ProductImages/Index?id=" + proid);
+        $('#dialog').dialog('open');
+        return false;
+    });
+});
 
 
 //function Delete(url) {
