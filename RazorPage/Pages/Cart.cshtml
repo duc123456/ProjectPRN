@@ -1,0 +1,89 @@
+﻿@page
+@model RazorPage.Pages.CartModel
+@{
+}
+<style>
+	.fa{
+		line-height:2;
+	}
+</style>
+
+<section id="cart_items">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li class="active">Shopping Cart</li>
+			</ol>
+		</div>
+		<div class="table-responsive cart_info">
+			<table class="table table-condensed">
+				<thead>
+					<tr class="cart_menu">
+						<td class="image">Sản phẩm</td>
+						<td class="description"></td>
+						<td >Giá</td>
+						<td class="quantity">Số lượng</td>
+						<td class="total">Tổng</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach(var item in Model.CartItems)
+					{
+						<tr>
+							<td class="cart_product">
+								<a href=""><img style="max-height:100px" src="@item.ProductItem.ImageDefault" alt=""></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">@item.ProductItem.ProductName</a></h4>
+								
+							</td>
+							<td class="cart_price">
+								<p class="price">@item.ProductItem.PriceOut</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button" style="display:flex">
+									@* <a class="cart_quantity_up" href=""> + </a> *@
+									<div class="cart_quantity_up">
+										<form asp-page="Cart" asp-page-handler="AddToCart" style="max-width:50px">
+											<input name="quantity" hidden value="-1" />
+											<input name="price" hidden value="@item.ProductItem.PriceOut" />
+											<input name="productId" hidden value="@item.ProductItem.ProductId" />
+											<button type="submit" class="fa fa-minus"></button>
+										</form>
+									</div>
+									<input class="cart_quantity_input" type="text" name="quantity" value="@item.quantity" autocomplete="off" size="2">
+									<div class ="cart_quantity_down">
+										<form asp-page="Cart" asp-page-handler="AddToCart" style="max-width:50px">
+											<input name="quantity" hidden value="1" />
+											<input name="price" hidden value="@item.ProductItem.PriceOut" />
+											<input name="productId" hidden value="@item.ProductItem.ProductId" />
+											<button type="submit" class="fa fa-plus"></button>
+										</form>
+									</div>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price price">@item.total</p>
+							</td>
+							<td class="cart_delete">
+								<div class="cart_quantity_delete">
+									<form asp-page="Cart" asp-page-handler="AddToCart">
+										<input name="productId" hidden value="@item.ProductItem.ProductId" />
+										<input name="quantity" hidden value="-@item.quantity" />
+										<button type="submit" class="fa fa-times btn-warning"></button>
+									</form>
+
+								</div>
+							</td>
+						</tr>
+					}
+					
+
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section> <!--/#cart_items-->

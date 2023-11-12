@@ -1,0 +1,42 @@
+﻿
+@using RazorPage.Models;
+@model List<Category>
+@{
+	
+}
+<style>
+
+</style>
+<div class="col-sm-3">
+	<div class="left-sidebar">
+		<h2>Danh mục</h2>
+		<div class="panel-group category-products" id="accordian">
+			<!--category-productsr-->
+			@foreach (var item in Model)
+			{
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title"><a asp-page="./Index" asp-route-cateid="@item.CategoryId">@item.CategoryName</a></h4>
+					</div>
+				</div>
+			}
+		</div>
+
+		
+
+		<div class="shipping text-center">
+			<!--shipping-->
+			<img style="max-height:250px" src="~/img/Imagehome/wqv-banner-sofa-sale-editable-template-online.jpg-840.jpg" alt="" />
+		</div><!--/shipping-->
+
+	</div>
+</div>
+@section Scripts{
+
+   
+
+
+
+
+
+}

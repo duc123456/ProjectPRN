@@ -11,11 +11,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddOptions();
 var mailsetting = builder.Configuration.GetSection("MailSettings");
 builder.Services.Configure<MailSettings>(mailsetting);
 builder.Services.AddSingleton<IEmailSender, SendMailService>();
+
 
 builder.Services.AddDbContext<MyBlogContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("MyBlogContext")
@@ -88,7 +89,9 @@ builder.Services.AddAuthorization(options =>
 });
 // Đăng ksi dịch vụ sử lỗi
 builder.Services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
-
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<CartService>();
 var app = builder.Build();
 
 

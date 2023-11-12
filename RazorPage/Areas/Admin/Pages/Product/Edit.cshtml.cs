@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RazorPage.Migrations;
@@ -10,16 +11,20 @@ namespace RazorPage.Areas.Admin.Pages.Product
 {
     public class EditModel : PageModel
     {
-        private readonly MyBlogContext _context;
-        private readonly IWebHostEnvironment _environment;
-        public EditModel(MyBlogContext context, IWebHostEnvironment environment)
-        {
-            _context = context;
-            _environment = environment;
-        }
-   
+		private readonly MyBlogContext _context;
+		private readonly IWebHostEnvironment _environment;
+		private readonly UserManager<AppUser> _userManager;
+		private readonly SignInManager<AppUser> _signInManager;
+		public EditModel(MyBlogContext context, IWebHostEnvironment environment, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+		{
+			_context = context;
+			_environment = environment;
+			_userManager = userManager;
+			_signInManager = signInManager;
+		}
 
-        public RazorPage.Models.Product product { get; set; }
+
+		public RazorPage.Models.Product product { get; set; }
 
 
         public class InputModel
@@ -183,7 +188,9 @@ namespace RazorPage.Areas.Admin.Pages.Product
                 input.fileImage.CopyTo(filestream);
                 pro.ImageDefault= "/img/products/" + input.fileImage.FileName;
             }
-            pro.UpdateDate = DateTime.Now;
+			var user = await _userManager.GetUserAsync(User);
+			product.UpdateBy = user.UserName;
+			pro.UpdateDate = DateTime.Now;
             var result = _context.Products.Update(pro);
             _context.SaveChanges();
             StatusMessage = $"Bạn vừa đổi cập nhật: {input.ProductName}";

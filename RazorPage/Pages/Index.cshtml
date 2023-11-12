@@ -1,44 +1,85 @@
 ﻿@page
+@using RazorPage.Helper;
 @using RazorPage.Models;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
-    var posts = ViewData["posts"] as List<Article>;
+    
+	var pagingmodel = new PagingModel()
+			{
+				currentPage = Model.currentPage,
+				countPage = Model.countPages,
+				generateUrl = (int? p) => Url.Page("/Index", new { p = p, cateid = Model.CategoryIdSelected })
+			};
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-<textarea class="col-md-5" id="summernote2"></textarea>
+@Html.AntiForgeryToken()
+<partial name="_Notification" model=@Model.StatusMessage />
 
-<ol>
-    @foreach (var post in posts)
-    {
-        <li>@post.Title</li>
-    }
-</ol>
+<div class="row">	
+	@await Html.PartialAsync("_Slider")			
+	@await Component.InvokeAsync("CategoryBox")
+	<div class="col-sm-9 padding-right">
+		<div class="features_items">
+			<!--features_items-->
+			<h2 class="title text-center">Sản phẩm của ISofa</h2>
+			@foreach(var item in Model.Products)
+			{
+				<div class="col-sm-4">
+				<div class="product-image-wrapper">
+					<div class="single-products">
+						<div class="productinfo text-center">
+							<img src="@item.ImageDefault" alt="" />
+								<h2 class="price">@item.PriceOut</h2>
+							<p>@item.ProductName</p>
+							<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Mua hàng</a>
+						</div>
+						<div class="product-overlay">
+							<div class="overlay-content">
+									<h2 class="price">@item.PriceOut</h2>
+									<p>@item.ProductName</p>
+									<form method="post" asp-page="Index" asp-page-handler="AddToCart">
+										<input type="hidden" name="productId" value="@item.ProductId"/>
+										<input type="hidden" name="price" value="@item.PriceOut" />
+										<input type="hidden" name="quantity" value="1" />
+										<button type="submit" id="addtocart" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Mua hàng</button>
+									</form>
+								
+							</div>
+						</div>
+					</div>
+					<div class="choose">
+						<ul class="nav nav-pills nav-justified">
+							<li><a asp-page="./Detail" asp-route-proId="@item.ProductId"><i class="fa fa-eye"></i>xem chi tiết</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				</div>			
+			}
+			 <partial name="_PagingXTL" model="@pagingmodel"/>
+		</div>
+	</div>
+</div>
 @section Scripts {
 
-    <script src="~/lib/summernote/summernote-bs4.min.js"></script>
-    <link href="~/lib/summernote/summernote-bs4.min.css" rel="stylesheet" />
-    <script>
+  
 
-        $(document).ready(function () {
-            $('#summernote2').summernote({
-                placeholder: '',
-                tabsize: 2,
-                height: 350,
-                toolbar: [
-                    ['style', ['style']],
-                    ['font', ['bold', 'underline', 'clear']],
-                    ['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['table', ['table']],
-                    ['insert', ['link', 'picture', 'video', 'elfinder']],
-                    ['view', ['fullscreen', 'codeview', 'help']]
-                ]
-            });
-        })
-    </script>
+	<script type="text/javascript">
+		$(function () {
+			$('#').on('click', function (evt) {
+				evt.preventDefault();
+				$.ajax({
+					type: "POST",
+					url: '/Index?handler=AddToCart',
+					data: $('form').serialize(),
+					headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+					success: function (data) {
+						$('#_Notification').html("Bạn vừa mua hàng thành công");
+					}
+				}
+				)
+
+			});
+		});</script>
 }

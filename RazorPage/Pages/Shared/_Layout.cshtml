@@ -4,50 +4,456 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - RazorPage</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/RazorPage.styles.css" asp-append-version="true" />
+    <link href="~/css/csshome/bootstrap.min.css" rel="stylesheet"/>
+    <link href="~/css/csshome/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/csshome/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/css/csshome/price-range.css" rel="stylesheet" />
+    <link href="~/css/csshome/animate.css" rel="stylesheet" />
+    <link href="~/css/csshome/main.css" rel="stylesheet" />
+    <link href="~/css/csshome/responsive.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+	<script src="https://kit.fontawesome.com/b8db64a6e9.js" crossorigin="anonymous"></script>
+	<style>
+		.nav.navbar-nav {
+			display: flex;
+			list-style: none;
+			padding: 0;
+		}
+
+			.nav.navbar-nav li {
+				margin-right: 10px; /* Khoảng cách giữa các mục */
+			}
+
+				.nav.navbar-nav li a {
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+				}
+
+				.nav.navbar-nav li i {
+					margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+				}
+
+		a.gflag {
+			vertical-align: middle;
+			font-size: 15px;
+			padding: 0px;
+			background-repeat: no-repeat;
+			background-image: url(//gtranslate.net/flags/16.png);
+		}
+
+			a.gflag img {
+				border: 0;
+			}
+
+			a.gflag:hover {
+				background-image: url(//gtranslate.net/flags/16a.png);
+			}
+
+		#goog-gt-tt {
+			display: none !important;
+		}
+
+		.goog-te-banner-frame {
+			display: none !important;
+		}
+
+		.goog-te-menu-value:hover {
+			text-decoration: none !important;
+		}
+
+		body {
+			top: 0 !important;
+		}
+
+		#google_translate_element2 {
+			display: none !important;
+		}
+
+		.goog-te-banner-frame.skiptranslate {
+			display: none !important;
+		}
+
+		body {
+			top: 0px !important;
+		}
+
+		.skiptranslate {
+			display: none;
+		}
+
+	</style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">RazorPage</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Blog/Index">Blog</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header id="header">
+		<div class="header-middle">
+			<!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							@* <a href="index.html"><img src="images/home/logo.png" alt="" /></a> *@
+							<a href="index.html"><img src="~/img/Imagehome/home/logo.png" alt="" /></a>
+						</div>
+						<div id="google_translate_element2"></div>
+						<div class="btn-group pull-right">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa trigger" data-toggle="dropdown">
+									<span>Tiếng việt</span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#" class="language" data-lang="ru|vi">
+											<img src="/images/vn.png" alt="">
+											<span>Tiếng Việt</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="language" data-lang="ru|en">
+											<img src="/images/en.jpg" alt="">
+											<span>Tiếng Anh</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li class="nav-item"><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
+								<li class="nav-item"><a asp-page="Cart"><i class="fa fa-shopping-cart"></i>Giỏ hàng</a></li>
+								<li class="nav-item"><a href="login.html"><i class="fa fa-lock"></i>Đăng nhập</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+		<div class="header-bottom">
+			<!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a asp-page="./Index" class="active">Trang chủ</a></li>
+								<li><a href="#" class="">Blog</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Search" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
     </header>
+	
+	<section>
     <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+			@RenderBody()
     </div>
+	</section>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - RazorPage - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<footer id="footer">
+		<!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>e</span>-shopper</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="~/img/Imagehome/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="~/img/Imagehome/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="~/img/Imagehome/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="~/img/Imagehome/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="~/img/Imagehome/home/map.png" alt="" />
+							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Service</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Online Help</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Order Status</a></li>
+								<li><a href="#">Change Location</a></li>
+								<li><a href="#">FAQ’s</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Quock Shop</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">T-Shirt</a></li>
+								<li><a href="#">Mens</a></li>
+								<li><a href="#">Womens</a></li>
+								<li><a href="#">Gift Cards</a></li>
+								<li><a href="#">Shoes</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Policies</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privecy Policy</a></li>
+								<li><a href="#">Refund Policy</a></li>
+								<li><a href="#">Billing System</a></li>
+								<li><a href="#">Ticket System</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>About Shopper</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Company Information</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Store Location</a></li>
+								<li><a href="#">Affillate Program</a></li>
+								<li><a href="#">Copyright</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>About Shopper</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Your email address" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>Get the most recent updates from <br />our site and be updated your self...</p>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> *@
+	
+	<script src="~/js/jshome/jquery.js"></script>
+
+	<script src="~/js/jshome/bootstrap.min.js"></script>
+	<script src="~/js/jshome/jquery.scrollUp.min.js"></script>
+	<script src="~/js/jshome/price-range.js"></script>
+	<script src="~/js/jshome/jquery.prettyPhoto.js"></script>
+	<script src="~/js/jshome/main.js"></script>
+	<script type="text/javascript">
+		var elements = document.getElementsByClassName('price');
+
+		// Lặp qua từng phần tử và thay đổi giá trị
+		for (var i = 0; i < elements.length; i++) {
+			var currentPrice = elements[i].innerText;
+
+			// Xử lí định dạng giá tiền
+			var formattedPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(parseFloat(currentPrice.replace(/,/g, '')));
+
+			// Hiển thị giá trị mới
+			elements[i].innerText = formattedPrice;
+		}
+	</script>
+	<script type="text/javascript">
+		function googleTranslateElementInit2() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'vn',
+				autoDisplay: false
+			}, 'google_translate_element2');
+		}
+
+	</script>
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+
+			$(".language").click(function () {
+				updateLanguage(this);
+			});
+
+			var cookieValue = getCookie("googtrans");
+			if (cookieValue != null && cookieValue != '') {
+				cookieValue = 'ru|' + cookieValue;
+				var elm = $("a[data-lang='" + cookieValue + "']");
+				//console.log(cookieValue);
+				//console.log(elm[0]);
+
+				updateLanguage(elm[0]);
+			}
+		});
+
+		function getCookie(cName) {
+			const name = cName + "=";
+			const cDecoded = decodeURIComponent(document.cookie); //to be careful
+			const cArr = cDecoded.split('; ');
+			let res;
+			cArr.forEach(val => {
+				if (val.indexOf(name) === 0) res = val.substring(name.length);
+			})
+			if (res != null) {
+				return res.substring(6, res.length);
+			}
+
+			return null;
+		}
+
+		function updateLanguage(element) {
+			if (element != null) {
+
+	
+				var spanText = element.querySelector('span').textContent;
+
+				var trigger = document.querySelector('.trigger');	
+				var triggerSpan = trigger.querySelector('span');
+				triggerSpan.textContent = spanText;
+				var cookieEn = getCookie("Enchange");
+				if ($(element).attr('data-lang') == 'ru|vi') {
+					$('.header-language .trigger img').attr('src', '/images/vn.png');
+					$('.header-language .trigger span').text('Tiếng Việt');
+					deleteCookie("googtrans");
+					location.reload();
+
+
+				} else if ($(element).attr('data-lang') == 'ru|en') {
+					$('.header-language .trigger img').attr('src', '/images/en.jpg');
+					$('.header-language .trigger span').text('Tiếng Anh');
+					doGTranslate($(element).attr('data-lang'));
+
+				}
+			}
+		}
+		function deleteCookie(cookieName) {
+			cookieName = "googtrans";
+			document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+			try {
+				let hostName = window.location.hostname;
+				let subdomain = hostName.substring(hostName.lastIndexOf(".", hostName.lastIndexOf(".") - 1));
+				document.cookie = cookieName + "=;expires=Thu, 01 Jan 1970 00:00:01 GMT ;domain=" + subdomain + ";path=/";
+			}
+			catch (ex) {
+
+			}
+		}
+	</script>
+	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		eval(function (p, a, c, k, e, r) {
+			e = function (c) {
+				return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+			};
+			if (!''.replace(/^/, String)) {
+				while (c--) r[e(c)] = k[c] || e(c);
+				k = [function (e) {
+					return r[e]
+				}];
+				e = function () {
+					return '\\w+'
+				};
+				c = 1
+			}
+			while (c--) if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+			return p
+		}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+		/* ]]> */
+	</script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

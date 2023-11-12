@@ -1701,6 +1701,34 @@
       "PackagePath": "staticwebassets\\css\\cs-skin-elastic.css"
     },
     {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\animate.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\main.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\price-range.css"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\csshome\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\csshome\\responsive.css"
+    },
+    {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\css\\jquery-ui.css",
       "PackagePath": "staticwebassets\\css\\jquery-ui.css"
     },
@@ -1815,6 +1843,266 @@
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\.gitignore",
       "PackagePath": "staticwebassets\\img\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\404\\404.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\404\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\blog\\socials.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\cart\\one.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\cart\\one.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\cart\\three.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\cart\\three.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\cart\\two.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\cart\\two.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\8743800-SOFA-CHERRY-2P-CHERRY-SOFA-2P-3.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\8743800-SOFA-CHERRY-2P-CHERRY-SOFA-2P-3.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\Victoire-nau-bach-den-huyen-05-.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\Victoire-nau-bach-den-huyen-05-.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\anh-bia-isofa-store-4-2048x849.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\anh-bia-isofa-store-4-2048x849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\anh-bia-isofa-store-5-2048x849.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\anh-bia-isofa-store-5-2048x849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\anh-bia-isofa-store-8-2048x849.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\anh-bia-isofa-store-8-2048x849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\bg_border.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\girl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\girl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\iframe1.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\iframe2.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\iframe3.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\logo.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\map.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\new.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\partner1.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\partner2.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\partner3.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\partner4.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\pricing.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\sale.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\sale.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\searchicon.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\home\\sofa_3P_kiki_9191488_1.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\home\\sofa_3P_kiki_9191488_1.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\rating.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\share.png"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\shop\\product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\Imagehome\\wqv-banner-sofa-sale-editable-template-online.jpg-840.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagehome\\wqv-banner-sofa-sale-editable-template-online.jpg-840.jpg"
     },
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\img\\admin.jpg",
@@ -2403,6 +2691,42 @@
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jquery.zoom.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\contact.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\main.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\jshome\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\jshome\\price-range.js"
     },
     {
       "Id": "C:\\Users\\msi\\Desktop\\PRN221\\ProjectPRN\\RazorPage\\wwwroot\\js\\lib\\chosen\\chosen.jquery.js",
