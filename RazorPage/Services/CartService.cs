@@ -15,7 +15,7 @@ namespace RazorPage.Services
             _httpContextAccessor = httpContextAccessor;
         }
 
-        public void AddToCart(Product item, int quantity)
+        public bool AddToCart(Product item, int quantity)
         {
             var cart = GetCartFromCookie();
 
@@ -26,7 +26,9 @@ namespace RazorPage.Services
                 // Nếu sản phẩm đã tồn tại, tăng số lượng lên
                 existingItem.quantity += quantity;
                 existingItem.total += item.PriceOut * quantity;
-
+                if(existingItem.quantity > item.Quantity) { 
+                    return false;
+                }
 				if (existingItem.quantity == 0)
                 {
                     cart.Remove(existingItem);
@@ -40,6 +42,7 @@ namespace RazorPage.Services
             }
             // Lưu giỏ hàng vào cookie
             SaveCartToCookie(cart);
+            return true;
         }
 
         public List<CartItem> GetCart()

@@ -85,6 +85,7 @@ namespace RazorPage.Areas.Admin.Pages.Product
 				}
 				var user = await _userManager.GetUserAsync(User);
 				product.CreateBy = user.UserName;
+				product.IsDeleted = false;
 				product.UpdateDate = DateTime.Now;
 				product.CreateDate = DateTime.Now;
 				_context.Products.Add(product);

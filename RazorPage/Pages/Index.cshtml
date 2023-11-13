@@ -14,7 +14,8 @@
 }
 
 @Html.AntiForgeryToken()
-<partial name="_Notification" model=@Model.StatusMessage />
+<partial name="_Notification" model=@Model.StatusMessageSS />
+<partial name="_NotificationRR" model=@Model.StatusMessageRR />
 
 <div class="row">	
 	@await Html.PartialAsync("_Slider")			
@@ -81,5 +82,6 @@
 				)
 
 			});
-		});</script>
+		});
+	</script>
 }

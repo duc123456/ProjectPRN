@@ -79,11 +79,46 @@
 							</td>
 						</tr>
 					}
-					
-
-					
+					<tr>
+						<td colspan="4">&nbsp;</td>
+						<td colspan="2">
+							<table class="table table-condensed total-result">
+								<tr>
+									<td>Tiền đơn hàng</td>
+									<td class="price">@Model.Total</td>
+								</tr>
+								<tr class="shipping-cost">
+									<td>Tiền vận chuyển</td>
+									<td>Miễn phí</td>
+								</tr>
+								<tr>
+									<td>Tổng tiền đơn hàng</td>
+									<td><span class="price">@Model.Total</span></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
+		<div class="bill-to">
+			<p>Thanh toán</p>
+			<div class="form-one">
+				<form method="post" asp-page="Cart" asp-page-handler="CheckOut">
+					<input type="text" asp-for="order.Name" placeholder="Tên người nhận"/>
+					<span asp-validation-for="order.Name"></span>
+					<input type="text" asp-for="order.Email" placeholder="Email người nhận">
+					<span asp-validation-for="order.Email"></span>
+					<input type="text" asp-for="order.PhoneNumber" placeholder="Số điện thoại người nhận">
+					<span asp-validation-for="order.PhoneNumber"></span>
+					<input type="text" asp-for="order.ShipAddress" placeholder="Địa chỉ nhận hàng">
+					<span asp-validation-for="order.ShipAddress"></span>
+					<textarea type="text" asp-for="order.Comment" placeholder="Ghi chú cho đơn hàng này"></textarea>
+					<button type="submit" class="btn btn-primary">Thanh toán</button>
+				</form>
+			</div>
+		</div>
 	</div>
 </section> <!--/#cart_items-->
+@section Scripts{
+}

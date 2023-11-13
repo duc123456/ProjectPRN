@@ -36,7 +36,7 @@ function elfinderDialog(editor) {
     }
 }(function ($) {
     $.extend($.summernote.plugins, {
-         Tạo plugin tên elfinder
+         //Tạo plugin tên elfinder
         'elfinder': function (context) {
             var self = this;
             // ui has renders to build ui elements.

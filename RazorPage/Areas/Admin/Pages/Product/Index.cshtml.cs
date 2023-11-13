@@ -32,7 +32,8 @@ namespace RazorPage.Areas.Admin.Pages.Product
             }
 
             StatusMessage = "Bạn đã xóa thành công "+ product.ProductName;
-            _context.Products.Remove(product);
+            product.IsDeleted = true;
+            _context.Products.Update(product);
             _context.SaveChanges();
             return new JsonResult(new {success = true, message="Delete Success"});
         }
