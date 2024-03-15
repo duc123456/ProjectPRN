@@ -31,8 +31,8 @@ namespace RazorPage.Models
         public string? PhoneNumber { get; set; }
 		[Required(ErrorMessage = "Hãy nhập Email người nhận hàng")]
 		public string? Email { get; set; }
-
-		public DateTime? UpdateDate { get; set; }
+        [DisplayFormat(DataFormatString = "{dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime? UpdateDate { get; set; }
 		public string? UpdateBy { get; set; }
 
 		public virtual ICollection<OrderDetail> OrderDetails { get; set; }

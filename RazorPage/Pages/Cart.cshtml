@@ -12,8 +12,8 @@
 	<div class="container">
 		<div class="breadcrumbs">
 			<ol class="breadcrumb">
-				<li><a href="#">Home</a></li>
-				<li class="active">Shopping Cart</li>
+				<li><a href="/Index">Trang chủ</a></li>
+				<li class="active">Giỏ hàng</li>
 			</ol>
 		</div>
 		<div class="table-responsive cart_info">
@@ -103,6 +103,7 @@
 		</div>
 		<div class="bill-to">
 			<p>Thanh toán</p>
+			<div asp-validation-summary="All"></div>
 			<div class="form-one">
 				<form method="post" asp-page="Cart" asp-page-handler="CheckOut">
 					<input type="text" asp-for="order.Name" placeholder="Tên người nhận"/>
@@ -121,4 +122,7 @@
 	</div>
 </section> <!--/#cart_items-->
 @section Scripts{
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }

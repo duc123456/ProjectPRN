@@ -36,6 +36,10 @@ namespace RazorPage.Services
             }
             else
             {
+                if (quantity> item.Quantity)
+                {
+					return false;
+				}
                 // Nếu sản phẩm chưa tồn tại, thêm vào giỏ hàng
                 item.Decription = "";
                 cart.Add(new CartItem { ProductItem = item, quantity = quantity, total = item.PriceOut*quantity }) ;

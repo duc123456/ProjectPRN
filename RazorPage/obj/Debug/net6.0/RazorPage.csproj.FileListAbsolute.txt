@@ -883,3 +883,9 @@ C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\System.Xm
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\WindowsBase.dll
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\msi\Desktop\PRN221\ProjectPRN\RazorPage\obj\Debug\net6.0\RazorPage.sourcelink.json

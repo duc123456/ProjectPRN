@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPage.Models;
 using System.ComponentModel;
@@ -6,7 +7,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RazorPage.Areas.Admin.Pages.Category
 {
-    public class CreateModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class CreateModel : PageModel
     {
         private readonly MyBlogContext _context;
         private readonly IWebHostEnvironment _environment;

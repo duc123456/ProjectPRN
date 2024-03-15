@@ -22,10 +22,13 @@ namespace RazorPage.Pages
 		}
 		[BindProperty]
 		public Product Product { get; set; }
-		[TempData]
-		public string StatusMessage { get; set; }
+        [TempData]
+        public string StatusMessageSS { get; set; }
 
-		[BindProperty]
+        [TempData]
+        public string StatusMessageRR { get; set; }
+
+        [BindProperty]
 		public List<Product> SameProduct { get; set; }
 		public void OnGet(int? proId)
         {
@@ -40,23 +43,31 @@ namespace RazorPage.Pages
 		{
 			if (quantity == 0)
 			{
-				StatusMessage = "Bạn đã không thêm sản phẩm nào";
+                StatusMessageRR = "Bạn đã không thêm sản phẩm nào";
 				return RedirectToPage("Index");
 			}
 			// Thêm sản phẩm vào giỏ hàng
 			Product product = _context.Products.Find(productId);
 			if (product == null)
 			{
-				StatusMessage = "Sản phẩm này đã không còn";
+                StatusMessageRR = "Sản phẩm này đã không còn";
 				return RedirectToPage("Index");
 			}
 			product.PriceOut = price;
 
-			_cartService.AddToCart(product, quantity);
+            var addCart = _cartService.AddToCart(product, quantity);
+            if (addCart == true)
+            {
+                StatusMessageSS = $"Bạn vừa thêm {quantity} {product.ProductName} vào giỏ hàng";
+            }
+            else
+            {
+                StatusMessageRR = $"Có vẻ sản phẩm {product.ProductName} chúng tôi không có đủ trong kho. Hãy liên lạc với chung tôi qua mail để xử lí";
 
-			// Chuyển hướng về trang giỏ hàng
-			StatusMessage = $"Bạn vừa thêm {quantity} {product.ProductName} vào giỏ hàng";
-			return RedirectToPage("Index");
+            }
+
+          
+			return RedirectToPage("/Detail" , productId);
 		}
 	}
 }

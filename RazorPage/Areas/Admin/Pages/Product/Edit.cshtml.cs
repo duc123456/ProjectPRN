@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,7 +10,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RazorPage.Areas.Admin.Pages.Product
 {
-    public class EditModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class EditModel : PageModel
     {
 		private readonly MyBlogContext _context;
 		private readonly IWebHostEnvironment _environment;

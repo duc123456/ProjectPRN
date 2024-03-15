@@ -4,7 +4,8 @@
 }
 <div class="row">
 	@Html.AntiForgeryToken()
-	<partial name="_Notification" model=@Model.StatusMessage />
+	<partial name="_Notification" model=@Model.StatusMessageSS />
+	<partial name="_NotificationRR" model=@Model.StatusMessageRR />
 	@await Html.PartialAsync("_Slider")
 	@await Component.InvokeAsync("CategoryBox")
 	<div class="col-sm-9 padding-right">

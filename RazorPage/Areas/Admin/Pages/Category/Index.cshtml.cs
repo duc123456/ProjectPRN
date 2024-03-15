@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using RazorPage.Models;
 
 namespace RazorPage.Areas.Identity.Pages.Category
 {
-    public class IndexModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class IndexModel : PageModel
     {
         private readonly MyBlogContext _context;
         public IndexModel(MyBlogContext context) {

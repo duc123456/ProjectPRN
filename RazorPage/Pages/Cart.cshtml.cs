@@ -40,6 +40,7 @@ namespace RazorPage.Pages
 		}
 		public IActionResult OnPostAddToCart(int productId, int quantity)
 		{
+
 			var product = _context.Products.Find(productId);
 			if (product == null)
 			{
@@ -52,6 +53,8 @@ namespace RazorPage.Pages
 		public async Task<IActionResult> OnPostCheckOutAsync()
 		{
 			var user = await _userManager.GetUserAsync(User);
+            var cartItems = _cartService.GetCart();
+            
 			if (user == null)
 			{
 				return Redirect("/login/");
@@ -72,8 +75,8 @@ namespace RazorPage.Pages
             Order addOrder = order;
 			_context.Orders.Add(addOrder);
 			_context.SaveChanges();
-			var caritems = _cartService.GetCart();
-			foreach(var caritem in caritems)
+			
+			foreach(var caritem in cartItems)
 			{
 				OrderDetail orderDetail = new OrderDetail();
 				orderDetail.OrderId = addOrder.Id;
@@ -84,6 +87,20 @@ namespace RazorPage.Pages
 				_context.OrderDetails.Add(orderDetail);
 				_context.SaveChanges(true);
 			}
+
+			var ordt = _context.OrderDetails.Where(x => x.OrderId == addOrder.Id).ToList();
+			foreach(var dt in ordt)
+			{
+				Product product = _context.Products.FirstOrDefault(x=>x.ProductId == dt.ProductId);
+				product.Quantity -= dt.Quantity;
+				if(product.Quantity < 0)
+				{
+					product.Quantity = 0;
+
+				}
+				_context.Products.Update(product);
+				_context.SaveChanges();
+            }
 			_cartService.ClearCart();
 			return RedirectToPage("Cart");
 		}
